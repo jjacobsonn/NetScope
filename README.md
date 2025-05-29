@@ -67,12 +67,12 @@ sudo python3 script.py
 
 ### Behind the Scenes
 
-🔍 **Finding Devices**
+**Finding Devices**
 - First tries the quick and reliable `arp-scan`
 - If that misses anything, falls back to other methods
 - Uses multiple scanning techniques to make sure nothing hides
 
-📈 **Tracking Traffic**
+**Tracking Traffic**
 - Watches your network in real-time
 - Checks which devices are active every 5 seconds
 - Smartly distributes bandwidth usage between active devices
@@ -80,13 +80,13 @@ sudo python3 script.py
 
 ## Good to Know
 
-💡 **Pro Tips**
+**Pro Tips**
 - Works best on networks you own or manage
 - Some devices might play hide-and-seek (looking at you, firewalls!)
 - Traffic stats are best-effort estimates
 - Modern devices might use privacy features that make them harder to track
 
-🚧 **Current Limitations**
+**Current Limitations**
 - Can't track individual packets (that would be crazy complex!)
 - Some devices might not show up if they:
   - Are sleeping 😴
@@ -94,7 +94,7 @@ sudo python3 script.py
   - Use privacy features 🕵️
   - Are just being stubborn 😤
 
-🚀 **What's Next?**
+**What's Next?**
 We've got some cool features planned:
 - Friendly device names instead of just IP addresses
 - Identifying device manufacturers
